@@ -1,0 +1,24 @@
+{
+  "name": "eventemitter",
+  "version": "0.0.0",
+  "dependencies": {},
+  "jest": {
+    "collectCoverage": true,
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/test/"
+    ],
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "testMatch": [
+      "**/test/*.+(js)"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/jest"
+  }
+}
